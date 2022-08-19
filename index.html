@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js programming language</title>
+</head>
+<body>
+
+
+
+<script>
+
+// 1. Write a C program to input week number(1-7) and print day of week name
+// using switch case.
+
+
+var day=1
+
+if (day == 1){
+  document.write('Saturday <br>');
+}
+if (day == 2){
+  document.write('Sunday <br>');
+}
+if (day == 3){
+  document.write('Monday <br>');
+}
+if (day == 4){
+  document.write('Tuesday <br>');
+}
+if (day == 5){
+  document.write('Wednesday <br>');
+}
+if (day == 6){
+  document.write('Thursday <br>');
+}
+if (day == 7){
+  document.write('Friday <br>');
+}
+
+
+
+
+// 2. Write a C program to input month number and print total number of
+// days in month using switch...case.
+
+
+
+var month=5
+
+if (month == 1) {
+  document.write( 'January = 31 <br>');
+}
+if (month == 2) {
+  document.write('February = 29 <br>');
+}
+if (month == 3) {
+  document.write('March = 31 <br>');
+}
+if (month == 4) {
+  document.write('April = 30 <br>');
+}
+if (month == 5) {
+  document.write('May = 31 <br>');
+}
+if (month == 6) {
+  document.write('June = 30 <br>');
+}
+if (month == 7) {
+  document.write('July = 31 <br>');
+}
+if (month == 8) {
+  document.write('August = 31 <br>');
+}
+if (month == 9) {
+  document.write('September = 30 <br>');
+}
+if (month == 10) {
+  document.write('October = 31 <br>');
+}
+if (month == 11) {
+  document.write('November = 30 <br>');
+}
+if (month == 12) {
+  document.write('December = 31 <br>');
+}
+
+
+
+
+// 4. Write a C program to input two numbers from user and find maximum
+// between two numbers using switch case.
+		
+var num1=32
+var num2=22
+
+if(num1>num2){
+  document.write('num1 is maximum <br> ');
+}
+
+if(num2>num1){
+  document.write('num2 is maximum <br> ');
+}
+
+
+
+// 5. Write a C program to input number from user and check whether the
+// number is even or odd using switch case.
+
+
+var number = 15;
+
+if(number%2 == 0){
+  document.write( 'Even <br>');
+}
+
+if(number%2 != 0){
+  document.write( 'Odd <br>');
+}
+
+
+
+// 6. Write a C program to input a number and check positive negative or
+// zero using switch case. Solution
+
+
+var number = -5;
+
+if( number == 0){
+  document.write('zero <br>');
+}
+
+if( number >0){
+  document.write('positive <br>');
+}
+
+if( number<0){
+  document.write('negative <br>');
+}
+
+
+
+// 1. C program to find maximum between three numbers.
+
+var num1 = 1000;
+var num2 = 5000;
+var num3 = 1050;
+
+if (num1 > num2 && num1 > num3){
+  document.write('number 1 is bigger <br>');
+}
+
+if ( num2 > num1 && num2 > num3){
+  document.write(' number 2 is bigger <br>');
+}
+
+if( num3 > num2 && num3 > num1){
+  document.write( 'number3 is bigger <br>');
+}
+
+
+
+// 2. Write a C program to check whether a number is divisible by 5 and 11 or
+// not using if else.
+
+
+var number = 55
+
+if(number % 5 == 0){
+  document.write('number is divisible by 5 <br>')
+}
+
+ else if(number % 11 == 0){
+  document.write('number is divisible by 11 <br>')
+}
+
+ else if(number % 5 == 0 && number % 11 == 0){
+  document.write('number is divisible by both 5 and 11 <br>')
+}
+
+
+// **3. Write a C program to check leap year using if else. How to check
+// whether a given year is leap year or not in C programming.
+
+
+
+var year = 2008
+
+if( year%4 == 0 && year % 100 !=0 ){
+  document.write( 'leap year <br>');
+}
+
+else{
+  document.write( 'common year <br>');
+}
+
+
+
+// // *8. Write a C program to check whether a triangle is valid or not if angles
+// // are given using if else
+
+var angle1 =70
+var angle2 =30
+var angle3 =80
+
+
+if ( angle1 + angle2 + angle3 == 180 && angle1>0 && angle2>0 && angle3>0){
+  document.write('triangle is valid <br>');
+}
+
+else{
+  document.write('triangle is not valid <br>');
+}
+
+
+
+
+// **9. Write a C program to input side of a triangle and check whether
+// triangle is valid or not using if else.
+
+var side1 =5
+var side2 =2
+var side3 =10
+
+if( side1+side2>side3){
+  document.write('triangle is valid <br>');
+}
+
+else if( side2+side3>side1){
+  document.write('triangle is valid <br>');
+}
+
+else if( side1+side3>side2){
+  document.write('triangle is valid <br>');
+}
+
+else{
+  document.write('triangle is not valid <br>');
+}
+
+
+
+// **10. Write a C program to input sides of a triangle and check whether a
+// triangle is equilateral, scalene or isosceles triangle using if else.
+ 
+ var side1 =40
+ var side2 =60
+ var side3 =50
+
+ if( side1==side2 && side2==side3){
+  document.write('triangle is equilateral <br>')
+ }
+
+ if (side1!= side2!= side3){
+  document.write( 'triangle is isosceles <br>')
+ }
+
+
+
+
+
+
+ // // 11. Write a C program to input cost price and selling price of a product and
+// // check profit or loss.
+
+
+var costprice=200
+var sellingprice=250
+
+if( costprice > sellingprice){
+  document.write('loss <br>');
+}
+
+if( sellingprice > costprice){
+  document.write('profit <br>');
+}
+
+
+
+// **13. Write a C program to input basic salary of an employee and calculate
+// gross salary according to given conditions.
+
+
+var basic = 10000;
+var gross = 0;
+
+if(basic <= 10000){
+  document.write(gross = basic + basic* 0.2 + basic* 0.8);
+
+}
+
+if(basic >= 10001 && basic <=20000){
+  document.write(gross = basic + basic* 0.25 + basic* 0.9);
+
+}
+
+if(basic >=20001){
+  document.write(gross = basic + basic* 0.3 + basic* 0.95);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+
+
+
+
+
+</body>
+</html>
